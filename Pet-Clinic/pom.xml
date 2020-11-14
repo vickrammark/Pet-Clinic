@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.Project.Pet-Clinic</groupId>
 	<artifactId>Pet-Clinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>Pet-Clinic</name>
 	<packaging>pom</packaging>
 	<description>Demo project for Spring Boot</description>
@@ -61,7 +61,7 @@
 	</build>
 	<scm>
 	   <developerConnection>scm:git:https://github.com/vickrammark/Pet-Clinic.git</developerConnection>
-	  <tag>Pet-Clinic-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<modules>
 		<module>Pet-Clinic-Data</module>
