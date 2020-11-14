@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.Project.Pet-Clinic</groupId>
     <artifactId>Pet-Clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
   </parent>
   <artifactId>Pet-Clinic-Data</artifactId>
   <properties>
