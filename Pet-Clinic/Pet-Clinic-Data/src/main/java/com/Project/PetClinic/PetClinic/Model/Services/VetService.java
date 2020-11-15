@@ -6,8 +6,8 @@ import com.Project.PetClinic.PetClinic.Model.Vet;
 
 
 public interface VetService {
-	
-Vet findById(Long id);
+	 
+	Vet findById(Long id);
 	
 	Vet findByLastName(String lastName);
 	
