@@ -1,6 +1,6 @@
 package com.Project.PetClinic.PetClinic.Model;
 
-public class Person {
+public class Person extends BaseEntity{
 	
 	private String firstname;
 	private String lastname;
