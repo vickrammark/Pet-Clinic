@@ -6,4 +6,8 @@ public class Vet extends Person{
 		super(firstname, lastname);
 	}
 
+	public Vet() {
+		// TODO Auto-generated constructor stub
+	}
+
 }

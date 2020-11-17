@@ -3,10 +3,10 @@ package com.Project.PetClinic.PetClinic.Model.Services.map;
 import java.util.Set;
 
 import com.Project.PetClinic.PetClinic.Model.Vet;
-import com.Project.PetClinic.PetClinic.Model.Services.CrudService;
+import com.Project.PetClinic.PetClinic.Model.Services.VetService;
 
 
-public class VetMapService extends AbstractMapService<Vet, Long> implements CrudService<Vet,Long>{
+public class VetMapService extends AbstractMapService<Vet, Long> implements VetService{
 
 	@Override
 	public Vet save(Vet object) {

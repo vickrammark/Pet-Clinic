@@ -9,6 +9,9 @@ public class Person extends BaseEntity{
 		this.firstname = firstname;
 		this.lastname = lastname;
 	}
+	public Person() {
+		// TODO Auto-generated constructor stub
+	}
 	public String getFirstname() {
 		return firstname;
 	}

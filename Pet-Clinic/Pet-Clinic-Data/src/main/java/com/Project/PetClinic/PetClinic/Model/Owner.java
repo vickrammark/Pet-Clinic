@@ -7,4 +7,9 @@ public class Owner extends Person{
 		// TODO Auto-generated constructor stub
 	}
 
+	public Owner() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 }
