@@ -2,15 +2,17 @@ package com.Project.PetClinic.PetClinic.Model.Services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import com.Project.PetClinic.PetClinic.Model.Pet;
 import com.Project.PetClinic.PetClinic.Model.Services.CrudService;
-
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet,Long>{
 
 	@Override
 	public Pet save(Pet object) {
 		// TODO Auto-generated method stub
-		return null;
+		return super.save(object);
 	}
 	
 	@Override

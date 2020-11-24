@@ -5,6 +5,19 @@
 <title>List of Vets</title>
 </head>
 <body>
-  <h1 th:text="'List of vets'">insert here</h1>
-</body>
+<table>
+   <tr>
+    <th> <h1 th:text="'List of Vets'">Index Page</h1></th>
+   </tr>
+   <tr>
+     <th>Id</th>
+     <th>First Name</th>
+     <th>Last Name</th>
+   </tr>
+   <tr th:each="vet:${vets}">
+      <td th:text="${vet?.id}">1</td>
+      <td th:text="${vet?.firstname}">Joe</td>
+      <td th:text="${vet?.lastname}">Buck</td>
+   </tr>
+</table></body>
 </html>
