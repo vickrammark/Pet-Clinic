@@ -1,5 +1,7 @@
 package com.Project.PetClinic.PetClinic.Model.Services;
 
-public interface SpecialitiesService extends CrudService{
+import com.Project.PetClinic.PetClinic.Model.Speciality;
+
+public interface SpecialitiesService extends CrudService<Speciality,Long>{
 
 }
