@@ -8,6 +8,19 @@ public class PetType  extends BaseEntity{
 		super();
 		this.name = name;
 	}
+
+	public PetType() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	
 
 }

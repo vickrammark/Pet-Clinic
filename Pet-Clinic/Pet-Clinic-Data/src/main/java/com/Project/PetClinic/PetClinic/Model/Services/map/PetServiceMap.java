@@ -6,8 +6,9 @@ import org.springframework.stereotype.Service;
 
 import com.Project.PetClinic.PetClinic.Model.Pet;
 import com.Project.PetClinic.PetClinic.Model.Services.CrudService;
+import com.Project.PetClinic.PetClinic.Model.Services.PetService;
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet,Long>{
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService{
 
 	@Override
 	public Pet save(Pet object) {
@@ -37,6 +38,12 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
 	public void deleteById(Long id)
 	{
 		super.deleteById(id);
+	}
+
+	@Override
+	public Pet findByLastName(String lastName) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
